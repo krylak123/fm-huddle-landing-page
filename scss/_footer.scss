@@ -1,0 +1,85 @@
+.footer {
+    color: $color-neutral-blue;
+
+    &__shape-wrap {
+        font-size: 0;
+    }
+
+    &__shape {
+        width: 100%;
+    }
+
+    &__wrap {
+        background-color: $color-neutral-cyan;
+    }
+
+    &__newsletter-wrap {
+        padding: 0 20px;
+    }
+
+    &__title {
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        font-family: $font-family-headings;
+        font-size: 1.2rem;
+    }
+
+    &__description {
+        font-size: .8rem;
+        margin-bottom: 30px;
+    }
+
+    &__input {
+        padding: 3px 2px;
+        margin-bottom: 15px;
+        width: 100%;
+        font-size: 1.5rem;
+        border-radius: 5px;
+        border-style: none;
+    }
+
+    &__btn {
+        display: block;
+        margin: 0 0 0 auto;
+        padding: 10px 40px;
+        font-family: $font-family-body;
+        font-weight: bold;
+        color: $color-neutral-blue;
+        background-color: $color-primary-pink;
+        outline: none;
+        border-style: none;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: lighten(hsl(322, 100%, 66%), 10%);
+        }
+    }
+
+    &__contact-wrap {
+        padding: 0 20px;
+    }
+
+    &__logo {
+        width: 60%;
+        margin-bottom: 10px;
+    }
+
+    &__contact {
+        margin-bottom: 10px;
+    }
+
+    &__icon {
+        margin-right: 20px;
+    }
+
+    &__socials {
+        padding: 30px 0;
+    }
+
+    &__link {
+        margin-right: 10px;
+        font-size: 1.5rem;
+        color: $color-neutral-blue;
+    }
+}

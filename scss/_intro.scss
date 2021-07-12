@@ -1,0 +1,39 @@
+.intro {
+    padding: 0 20px;
+
+    &__title {
+        text-align: center;
+        font-family: $font-family-headings;
+    }
+
+    &__description {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    &__btn {
+        display: block;
+        margin: 40px auto 100px;
+        padding: 12px 40px;
+        font-family: $font-family-body;
+        font-weight: bold;
+        color: $color-neutral-blue;
+        background-color: $color-primary-pink;
+        outline: none;
+        border-style: none;
+        border-radius: 20px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: lighten(hsl(322, 100%, 66%), 10%);
+        }
+    }
+
+    &__img-wrap {
+        width: 100%;
+    }
+
+    &__img {
+        width: 100%;
+    }
+}

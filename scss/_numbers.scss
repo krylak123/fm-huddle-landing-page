@@ -1,0 +1,23 @@
+.numbers {
+    padding: 0 20px;
+
+    &__communities-wrap,
+    &__messages-wrap {
+        display: flex;
+        justify-content: center;
+        margin: 120px 0;
+    }
+
+    &__icon {
+        width: 20%;
+    }
+
+    &__value {
+        font-size: 4rem;
+    }
+
+    &__description {
+        color: rgb(165, 164, 164);
+        text-align: center;
+    }
+}
