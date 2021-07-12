@@ -36,4 +36,24 @@
     &__img {
         width: 100%;
     }
+
+    @media screen and (min-width: 1440px) {
+        &__title {
+            font-size: 2.2rem;
+        }
+
+        &__description {
+            margin: 20px auto;
+            width: 40%;
+        }
+
+        &__btn {
+            padding: 15px 50px;
+        }
+
+        &__img-wrap {
+            margin: 0 auto;
+            width: 80%;
+        }
+    }
 }

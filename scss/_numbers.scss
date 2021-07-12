@@ -20,4 +20,9 @@
         color: rgb(165, 164, 164);
         text-align: center;
     }
+
+    @media screen and (min-width: 1440px) {
+        display: flex;
+        justify-content: space-evenly;
+    }
 }

@@ -15,6 +15,7 @@
 
     &__text-wrap {
         padding: 60px 20px;
+        text-align: center;
     }
 
     &__img {
@@ -22,15 +23,38 @@
     }
 
     &__title {
-        text-align: center;
         margin-bottom: 20px;
-    }
-
-    &__description {
-        text-align: center;
     }
 
     &:nth-of-type(odd) .feature__wrap {
         background-color: #F6FBFF;
+    }
+
+    @media screen and (min-width: 1440px) {
+        &__wrap {
+            display: flex;
+        }
+
+        &:nth-of-type(odd) .feature__text-wrap {
+            order: -1;
+        }
+
+        &__img-wrap {
+            flex-basis: 50%;
+            padding-top: 0;
+        }
+
+        &__text-wrap {
+            flex-basis: 50%;
+            padding: 0 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: left;
+        }
+
+        &__title {
+            font-size: 2rem;
+        }
     }
 }

@@ -1,11 +1,12 @@
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 30px 0 100px;
     padding: 0 20px;
 
     &__logo {
-        width: 32%;
+        width: 100px;
         display: flex;
         align-items: center;
     }
@@ -27,6 +28,12 @@
 
         &:hover {
             box-shadow: 0 0 5px 0 $color-primary-pink-light;
+        }
+    }
+
+    @media screen and (min-width: 1440px) {
+        &__logo {
+            width: 120px;
         }
     }
 }
